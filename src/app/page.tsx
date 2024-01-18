@@ -95,7 +95,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Education</h2>
           {ResumeData.education.map((education) => {
             return (
