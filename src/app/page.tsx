@@ -33,7 +33,7 @@ export default function Page() {
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {ResumeData.contact.email ? (
                 <Button className="size-8" variant="outline" size="icon">
-                  <a href={`mailto:${ResumeData.contact.email}`}>
+                  <a href={`mailto:${ResumeData.contact.email.url}`}>
                     <Mail className="size-4" />
                   </a>
                 </Button>
